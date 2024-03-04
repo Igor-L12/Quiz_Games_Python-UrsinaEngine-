@@ -18,17 +18,20 @@
 
 Установить фреймворк ursina engine
 
-```pip install ursina
+```
+pip install ursina
 ```
 
 Перейти в нужную папку
 
-```cd django_quiz
+```
+cd django_quiz
 ```
 
 Запустить приложение
 
-```python quiz_django.py
+```
+python quiz_django.py
 ```
 
 #### Если не хочется развёртывать проект, то есть zip архивы с .exe файлом игры
