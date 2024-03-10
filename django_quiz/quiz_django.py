@@ -226,7 +226,7 @@ class QuizGame(Entity):
 
     def game_over(self):
         self.text = Text(text='Поздравляем!', font=self.custom_font, scale=(1.5, 1.5), position=(-0.17, 0.2))
-        self.score = Text(text=f'Вот сколько очков ты набрал: {self.score} из 10!', font=self.custom_font,
+        self.score = Text(text=f'Вот сколько очков ты набрал: {self.score}!', font=self.custom_font,
                           position=(-0.29, 0.0))
 
         self.restart_button = Button(text='Начать снова', texture=load_texture('static/img/button_1.png'),
